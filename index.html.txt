@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="hero">
+            <div class="hero-content">
+                <img src="images/profile.jpg" alt="Your Name Profile Picture" class="profile-pic">
+                <div class="hero-text">
+                    <h1>Hello, I'm [Ankit kumar]</h1>
+                    <p>I'm a passionate developer specializing in [Software development].</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Git & GitHub</span>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250" alt="Project One Image">
+                    <h3>Project One</h3>
+                    <p>Static Website for Portfolio - Developing a responsive static website for a developer's portfolio using HTML, CSS, and JavaScript, showcasing skills and projects. This project showcases my skills in building interactive web applications using modern JavaScript frameworks.</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250" alt="Project Two Image">
+                    <h3>Project Two</h3>
+                    <p>Another project description. This demonstrates my ability to work with backend technologies and databases to create a full-stack solution.</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250" alt="Project Three Image">
+                    <h3>Project Three</h3>
+                    <p>A brief description of your project. This one is a simple and clean UI/UX design with a focus on responsiveness and accessibility.</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>I'm always open to new opportunities. Feel free to connect with me!</p>
+            <div class="contact-info">
+                <a href="mailto:mypcanku555@gmail.com">mypcanku555@gmail.com</a>
+                <a href="https://www.linkedin.com/in/ankit-kumar-6226bb25b" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Anku9636" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [Ankit kumar]. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
